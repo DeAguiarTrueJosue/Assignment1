@@ -25,7 +25,7 @@ int main() {
 	{
 		for (int j = 1; j <= height * 2 - 1; j++) // This line is responsable to say the amount of columns the pyramid is going to use. 1 to height * 2 - 1.
 		{
-			if (abs(height - j) + abs(i - height) - height < 0) // here, the if is checking if the space in the grid should have a * or not.
+			if (abs(height - j) + abs(i - height) - height == -1) // here, the if is checking if the space in the grid should have a * or not.
 			{
 				printf("*");
 			}
